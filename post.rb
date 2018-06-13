@@ -15,14 +15,14 @@ def post(quote, source)
 end
 
 def source_and_quotes
+  source = ''
   quotes = []
-  h = {}
   File.open('quotes.txt', 'r').readlines.each_with_index do |line, i|
     line = line.strip           # remove newline at the end
-    h[:source] = line if i == 0
+    source = line if i == 0
     quotes << line if i > 0
   end
-  h.merge({quotes: quotes})
+  [source, quotes]
 end
 
 def blog
@@ -30,8 +30,8 @@ def blog
 end
 
 def call
-  quotes = source_and_quotes[:quotes]
-  source = source_and_quotes[:source]
+  source, quotes = source_and_quotes
+
   puts "Posting #{source}'s quotes..."
   puts "Number of quotes: #{quotes.size}"
   quotes.each { |quote| post(quote, source) }
