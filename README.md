@@ -9,7 +9,7 @@ export TUMBLR_CONSUMER_SECRET=Y4YOiwJGzgAzQAeYakliN74fNZAvsNO8OTkkRzsjoAflhahaha
 export TUMBLR_OAUTH_TOKEN=xZ8EO6kAlzI1UkviXY96IcALjl5W9dW5HQZ7etGrQ2yJwhahaha
 export TUMBLR_OAUTH_TOKEN_SECRET=VpdMGj61mkIJTBCGlVrg5vX2KRJ3JPZaYW3KPmtaJnhahaha
 ```
-2. Put quotes and source into `quotes.txt` in like this
+2. Put quotes and source into `quotes.txt` like this. The first line is the source, following the quotes.
 ```txt
 Socrates
 An unexamined life is not worth living.
