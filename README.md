@@ -1,6 +1,11 @@
 # tumblr-batch-quotes
 Post multiple quotes to Tumblr
 
+## Requirement
+ - [Install Ruby](https://www.ruby-lang.org/en/downloads/)
+ - `gem install tumblr_client`
+ - Get your Tumblr API key at https://www.tumblr.com/oauth/apps
+
 ## How to use it
 1. Put your secret keys in your environment
 ```bash
