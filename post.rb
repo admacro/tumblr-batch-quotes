@@ -1,5 +1,11 @@
 require 'tumblr_client'
 
+def post
+  action = "post_#{post_type}"
+  send action.to_sym
+  puts "\nDone. Check them here #{blog['url']}"
+end
+
 def client
   @client ||= Tumblr::Client.new({
     :consumer_key => ENV['TUMBLR_CONSUMER_KEY'],
@@ -55,15 +61,13 @@ def post_quotes
   puts "Number of quotes: #{quotes.size}"
   quotes.each { |quote| post_quote(quote, source) }
 
-  puts "\nDone. Check them here #{blog['url']}"
 end
 
 # text
 def text_title_and_body
-  title = 'Untitled'
+  title = ''
   body = ''
   File.open('text.md', 'r').readlines.each_with_index do |line, i|
-    line = line.strip           # remove newline at the end
     title = line if i == 0
     body += line if i > 0
   end
@@ -73,9 +77,8 @@ end
 def post_text
   title, body = text_title_and_body
   abort "Title or body is empty." if title.empty? || body.empty?
-  client.text blog['name'], { title: title, body: body }
+  client.text blog['name'], { title: title, body: body, format: 'markdown' }
 end
 
 # Make the request
-action = "post_#{post_type}"
-send action.to_sym
+post
