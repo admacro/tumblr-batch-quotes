@@ -1,0 +1,4 @@
+Get Orgnized
+I spent one hour to re-orgnize my books today. The reason for this was that I needed to make room for som new books I bought recently. There were three new books about literature with each has over 3000 pages. They take up almost one fourth of the bookshelf space.
+
+Looking at these books, I was both content and anxious. I'm content because I have them, especially those I brought back from US. For anxious, I have many books but have only read few of them. Then I had an idea about buying and reading books. I thought that if I put books onto the bookshelf only after I have read them, I would have read more books than now.

@@ -14,12 +14,14 @@ export TUMBLR_CONSUMER_SECRET=Y4YOiwJGzgAzQAeYakliN74fNZAvsNO8OTkkRzsjoAflhahaha
 export TUMBLR_OAUTH_TOKEN=xZ8EO6kAlzI1UkviXY96IcALjl5W9dW5HQZ7etGrQ2yJwhahaha
 export TUMBLR_OAUTH_TOKEN_SECRET=VpdMGj61mkIJTBCGlVrg5vX2KRJ3JPZaYW3KPmtaJnhahaha
 ```
-2. Put quotes and source into `quotes.txt` like this. The first line is the source, following the quotes.
+
+### Post multiple quotes
+1. Put quotes and source into `quotes.txt` like following. The first
+line is the source of the quotes, the following the quotes.
 ```txt
 Socrates
 An unexamined life is not worth living.
 True knowledge exists in knowing that you know nothing.
-I know that I am intelligent, because I know that I know nothing.
 The hottest love has the coldest end.
 When the debate is over, slander becomes the tool of the loser.
 By all means marry: if you get a good wife, you’ll become happy; if you get a bad one, you’ll become a philosopher.
@@ -28,4 +30,17 @@ There is only one good, knowledge, and one evil, ignorance.
 Education is the kindling of a flame, not the filling of a vessel.
 Beware the barrenness of a busy life.
 ```
-3. run `ruby post.rb`
+2. run `ruby post.rb quotes`
+
+### Post text
+1. Put title and text into `text.txt` like following. The first
+line is the title, the following the body of the text.
+```txt
+Emma Did Makeup Today
+Today, I went out with Emma. She dressed in a blue skirt and looked
+gorgeous. When I get to the street corner, I couldn't recognize her
+as she did makeup. I looked at her for five seconds and she burst out
+laughing.
+
+```
+2. run `ruby post.rb text`
