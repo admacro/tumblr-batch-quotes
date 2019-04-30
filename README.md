@@ -11,8 +11,8 @@ First, put your secret keys in your environment
 ```bash
 export TUMBLR_CONSUMER_KEY=snjohNSI8oPecFKehkwRuS760Xdqp6rplhahahahahahahaha
 export TUMBLR_CONSUMER_SECRET=Y4YOiwJGzgAzQAeYakliN74fNZAvsNO8hahahahahahahahaha
-export TUMBLR_OAUTH_TOKEN=xZ8EO6kAlzI1UkviXY96IcALjl5W9dW5HQZ7hahahahawhahaha
-export TUMBLR_OAUTH_TOKEN_SECRET=VpdMGj61mkIJTBCGlVrg5vX2KRJ3Jhahahahawhahnhahaha
+export TUMBLR_OAUTH_TOKEN=xZ8EO6kAlzI1UkviXY96IcALjl5W9dW5HQZ7hahahahahahaha
+export TUMBLR_OAUTH_TOKEN_SECRET=VpdMGj61mkIJTBCGlVrg5vX2KRJ3Jhahahahahahahahaha
 ```
 
 ### Post multiple quotes
