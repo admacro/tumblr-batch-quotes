@@ -7,12 +7,12 @@ Post multiple quotes, and text to Tumblr.
  - Get your Tumblr API key at https://www.tumblr.com/oauth/apps
 
 ## How to use it
-1. Put your secret keys in your environment
+First, put your secret keys in your environment
 ```bash
-export TUMBLR_CONSUMER_KEY=snjohNSI8oPecFKehkwRuS760Xdqp6rpl8db393NfdYhahaha
-export TUMBLR_CONSUMER_SECRET=Y4YOiwJGzgAzQAeYakliN74fNZAvsNO8OTkkRzsjoAflhahaha
-export TUMBLR_OAUTH_TOKEN=xZ8EO6kAlzI1UkviXY96IcALjl5W9dW5HQZ7etGrQ2yJwhahaha
-export TUMBLR_OAUTH_TOKEN_SECRET=VpdMGj61mkIJTBCGlVrg5vX2KRJ3JPZaYW3KPmtaJnhahaha
+export TUMBLR_CONSUMER_KEY=snjohNSI8oPecFKehkwRuS760Xdqp6rplhahahahahahahaha
+export TUMBLR_CONSUMER_SECRET=Y4YOiwJGzgAzQAeYakliN74fNZAvsNO8hahahahahahahahaha
+export TUMBLR_OAUTH_TOKEN=xZ8EO6kAlzI1UkviXY96IcALjl5W9dW5HQZ7hahahahawhahaha
+export TUMBLR_OAUTH_TOKEN_SECRET=VpdMGj61mkIJTBCGlVrg5vX2KRJ3Jhahahahawhahnhahaha
 ```
 
 ### Post multiple quotes
@@ -33,9 +33,10 @@ Beware the barrenness of a busy life.
 2. run `ruby post.rb quotes`
 
 ### Post text
-1. Put title and text into `text.txt` like following. The first
-line is the title, the following the body of the text.
-```txt
+1. Put title and text into `text.md` like following. The first
+line is the title, the following the body of the text. The format of
+the text is set to `markdown`.
+```markdown
 Emma Did Makeup Today
 Today, I went out with Emma. She dressed in a blue skirt and looked
 gorgeous. When I get to the street corner, I couldn't recognize her
