@@ -1,5 +1,5 @@
 # tumblr-batch-quotes
-Post multiple quotes to Tumblr
+Post multiple quotes, and text to Tumblr.
 
 ## Requirement
  - [Install Ruby](https://www.ruby-lang.org/en/downloads/)
