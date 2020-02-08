@@ -5,6 +5,7 @@ Post multiple quotes, and text to Tumblr.
  - [Install Ruby](https://www.ruby-lang.org/en/downloads/)
  - `gem install tumblr_client`
  - Get your Tumblr API key at https://www.tumblr.com/oauth/apps
+ - Get your Tumblr oauth token at https://api.tumblr.com/console/calls/user/info
 
 ## How to use it
 First, put your secret keys in your environment
