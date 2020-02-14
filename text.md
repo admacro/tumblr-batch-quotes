@@ -1,4 +1,13 @@
-Get Orgnized
-I spent one hour to re-orgnize my books today. The reason for this was that I needed to make room for som new books I bought recently. There were three new books about literature with each has over 3000 pages. They take up almost one fourth of the bookshelf space.
+红尘
+人世间
+你我皆过客
+无需论
+那国与那乡
+亦勿言
+那人与那事
 
-Looking at these books, I was both content and anxious. I'm content because I have them, especially those I brought back from US. For anxious, I have many books but have only read few of them. Then I had an idea about buying and reading books. I thought that if I put books onto the bookshelf only after I have read them, I would have read more books than now.
+红尘嚣嚣
+车马滚滚
+沙海一砾
+欲成巨石
+
