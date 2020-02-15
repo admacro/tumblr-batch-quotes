@@ -1,13 +1,4 @@
-红尘
-人世间
-你我皆过客
-无需论
-那国与那乡
-亦勿言
-那人与那事
-
-红尘嚣嚣
-车马滚滚
-沙海一砾
-欲成巨石
-
+goimports
+1. `goimports -w bonjour.go` writes results to source file instead of
+stdout.
+2. `goimports -format-only` is effectively `gofmt`. Therefore, `goimports -w -format-only bonjour.go` is same as `gofmt -w bonjour.go`
