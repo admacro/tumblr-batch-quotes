@@ -60,8 +60,8 @@ def post_quotes
   puts "Posting #{source}'s quotes..."
   puts "Number of quotes: #{quotes.size}"
   quotes.each { |quote| post_quote(quote, source) }
-
 end
+alias :post_q :post_quotes
 
 # text
 def text_title_and_body
@@ -79,6 +79,7 @@ def post_text
   abort "Title or body is empty." if title.empty? || body.empty?
   client.text blog['name'], { title: title, body: body, format: 'markdown' }
 end
+alias :post_t :post_text
 
 # Make the request
 post
