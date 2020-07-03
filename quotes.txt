@@ -1,6 +1,2 @@
-Author Name
-Quote 1.
-Quote 2.
-Blaa
-Blaa
-Blaa
+Admacro
+This is my quote.
